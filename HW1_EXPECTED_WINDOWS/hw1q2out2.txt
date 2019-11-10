@@ -5,4 +5,4 @@ m: Manager
 
 Enter work day:
 Enter work hours:
-The daily salary is 581.00
+The daily salary is 581.0
