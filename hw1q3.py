@@ -13,6 +13,7 @@ def second_card(num: int):
     temp = int(temp / 10)
     return int(math.pow(base, power) / temp)
 
+
 def third_card(letter):
     if ord(letter) % 7 == 0:
         return 17

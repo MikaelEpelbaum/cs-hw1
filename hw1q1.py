@@ -4,7 +4,7 @@ a_p = (float(input()))
 a_p_val = (a_p < 50) and (a_p > 0)
 # a_q has to be positive and of int type
 a_q = int(input())
-a_q_val = a_q > 0
+a_q_val = a_q >= 0
 
 print('B:')
 # b_p has to be less than 30
@@ -12,14 +12,14 @@ b_p = float(input())
 b_p_val = (b_p < 30) and (b_p > 0)
 # b_q has to be positive and of int type
 b_q = int(input())
-b_q_val = b_q > 0
+b_q_val = b_q >= 0
 
 print('C:')
 c_p = float(input())
 c_p_val = c_p > 0
 # c_q has to be positive and of int type
 c_q = int(input())
-c_q_val = c_q > 0
+c_q_val = c_q >= 0
 
 print('D:')
 d_p = float(input())
